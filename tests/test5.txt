@@ -1,0 +1,56 @@
+ASCII
+w=3
+h=7
+
+COLOR:
+. Y Y R .
+. Y Y . .
+. Y Y . .
+. Y Y Y .
+. Y Y Y .
+. Y Y Y .
+. Y Y Y .
+. R Y Y .
+. . . . .
+
+ID:
+. a a b .
+. 9 9 . .
+. B B . .
+. D 6 7 .
+. C 5 8 .
+. C C 4 .
+. 1 2 3 .
+. A 0 0 .
+. . . . .
+
+MODIFIERS:
+. ^ ^ ^ .
+. i1 . . .
+. . . . .
+. . . . .
+. . . . .
+. . . . .
+. . . . .
+. . . . .
+. . . . .
+
+BLOCKS:
+0 Y 2x1_H
+1 Y 1x1
+2 Y 1x1
+3 Y 1x1
+4 Y 1x1
+5 Y 1x1
+6 Y 1x1
+7 Y 1x1
+8 Y 1x1
+9 Y 2x1_H ic=1
+A R 1x1
+B Y 2x1_H
+C Y RA_BL
+D Y 1x1
+
+EXITS:
+a Y t 0 0 2
+b R t 2 0 1

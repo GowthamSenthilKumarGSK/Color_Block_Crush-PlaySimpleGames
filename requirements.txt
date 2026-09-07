@@ -1,0 +1,3 @@
+# Solvers 1 and 2 use only Python standard library
+# Solver 3 (optimal) requires Z3 theorem prover
+z3-solver>=4.12

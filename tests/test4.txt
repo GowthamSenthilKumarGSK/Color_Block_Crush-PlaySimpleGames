@@ -1,0 +1,55 @@
+ASCII
+w=6
+h=6
+
+COLOR:
+. . . G G . . .
+. R R B . R # .
+. R R . . R R .
+B R R . B B B .
+. B B B . G G B
+. G G . . G G .
+. # G . B G G .
+. . . R R . . .
+
+ID:
+. . . c c . . .
+. 4 4 A . 6 # .
+. 4 C . . 6 6 .
+a C C . 2 9 3 .
+. 1 8 0 . D D b
+. 7 7 . . D 5 .
+. # 7 . B 5 5 .
+. . . d d . . .
+
+MODIFIERS:
+. . . ^ ^ . . .
+. . . . . . # .
+. . i2 . . . . .
+< . . . - . - .
+. - . - . i2 . >
+. . . . . . . .
+. # . . . . . .
+. . . v v . . .
+
+BLOCKS:
+0 DB 1x1 ar=h
+1 DB 1x1 ar=h
+2 DB 1x1 ar=h
+3 DB 1x1 ar=h
+4 R RA_TL
+5 DG RA_BR
+6 R RA_BL
+7 DG RA_TR
+8 DB 1x1
+9 DB 1x1
+A DB 1x1
+B DB 1x1
+C R RA_BR ic=2
+D DG RA_TL ic=2
+
+EXITS:
+a DB l 0 2 1
+b DB r 5 3 1
+c DG t 2 0 2
+d R b 2 5 2
